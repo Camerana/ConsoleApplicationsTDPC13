@@ -65,9 +65,29 @@ namespace ConsoleApplicationsTDPC13
           Console.WriteLine("le stringhe non sono uguali");
       }
       */
-
-
-
+      /*
+       simulazione di una macchinetta delle merendine:
+        - la macchinetta deve:
+          - avere un numero intero che indichi i soldi
+          dell'utente
+          - avere una scelta di N prodotti
+          - permettere all'utente di scegliere un prodotto
+          alla volta, sottraendo ogni volta l'importo
+          dai suoi soldi
+          - smettere di accettare ordini quando l'utente non
+          ha più abbastanza soldi
+       */
+      string valore1 = "1";
+      string valore2 = "2";
+      if (valore1 == "1" && valore2 == "2")
+      {
+      }
+      if (valore1 != "1" || valore2 == "2")
+      {
+      }
+      if (valore1 == "1" && valore2 != "2")
+      {
+      }
       Console.ReadKey();
     }
   }
