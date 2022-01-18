@@ -8,15 +8,28 @@ namespace ConsoleApplicationsTDPC13
 {
   class Program
   {
-    /*
-     
-     */
     static void Main(string[] args)
     {
-      string nome = "Ciccio";
-      Console.WriteLine(nome);
+      Console.WriteLine("Inserisci una stringa");
+      string variabile = Console.ReadLine();
+      if (variabile == "ciao")
+      {
+        Console.WriteLine("ciao anche a te");
+      }
+      else if (variabile == "addio")
+      {
+        Console.WriteLine("addio mio caro");
+      }
+      else if (variabile == "goodbye")
+      {
+        Console.WriteLine("goodbye my friend");
+      }
+      else
+      {
+        Console.WriteLine("non mi saluti ?");
+      }
 
-      Console.WriteLine("Ciccio");
+
 
       Console.ReadKey();
     }
