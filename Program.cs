@@ -75,19 +75,41 @@ namespace ConsoleApplicationsTDPC13
           alla volta, sottraendo ogni volta l'importo
           dai suoi soldi
           - smettere di accettare ordini quando l'utente non
-          ha pi� abbastanza soldi
+          ha più abbastanza soldi
        */
-      string valore1 = "1";
-      string valore2 = "2";
-      if (valore1 == "1" && valore2 == "2")
+      int credito = 10;
+      while (credito > 0)
       {
+        Console.WriteLine("Hai " + credito + " euro");
+        Console.WriteLine("Cosa vuoi comprare ?");
+        Console.WriteLine("1) Bibita      1€");
+        Console.WriteLine("2) Patatine    2€");
+        Console.WriteLine("3) Biscotti    3€");
+        int costo = 0;
+        string scelta = Console.ReadLine();
+        if (scelta == "1")
+        {
+          costo = 1;
+        }
+        else if (scelta == "2")
+        {
+          costo = 2;
+        }
+        else if (scelta == "3")
+        {
+          costo = 3;
+        }
+
+        if (credito >= costo)
+        {
+          credito = credito - costo;
+        }
+        else
+        {
+          Console.WriteLine("Non hai soldi sufficienti");
+        }
       }
-      if (valore1 != "1" || valore2 == "2")
-      {
-      }
-      if (valore1 == "1" && valore2 != "2")
-      {
-      }
+      Console.WriteLine("Arrivederci");
       Console.ReadKey();
     }
   }
