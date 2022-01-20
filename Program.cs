@@ -15,6 +15,7 @@ namespace ConsoleApplicationsTDPC13
         - permettere all'utente di scommettere testa o croce
         - stampare all'utente se ha vinto o meno
        */
+      /*
       Console.WriteLine("Scegli testa o croce");
       Console.WriteLine("1) testa");
       Console.WriteLine("2) croce");
@@ -27,6 +28,19 @@ namespace ConsoleApplicationsTDPC13
       else
         Console.WriteLine("Hai perso");
 
+      Console.ReadKey();
+      */
+
+      /*
+       scrivere un programma che:
+        - chieda all'utente il suo nome
+        - stampi sullo schermo il nome dell'utente
+        - stampi sullo schermo la lunghezza del nome dell'utente
+       */
+      Console.WriteLine("Come ti chiami ?");
+      string input = Console.ReadLine();
+      Console.WriteLine("Ti chiami: " + input);
+      Console.WriteLine(input + " è lungo " + input.Length + " caratteri");
       Console.ReadKey();
     }
   }
