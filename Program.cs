@@ -8,15 +8,24 @@ namespace ConsoleApplicationsTDPC13
 {
   class Program
   {
-    /*
-     
-     */
     static void Main(string[] args)
     {
-      string nome = "Ciccio";
-      Console.WriteLine(nome);
+      /*
+       scrivere un programma che simuli un lancio di una moneta:
+        - permettere all'utente di scommettere testa o croce
+        - stampare all'utente se ha vinto o meno
+       */
+      Console.WriteLine("Scegli testa o croce");
+      Console.WriteLine("1) testa");
+      Console.WriteLine("2) croce");
+      string scelta = Console.ReadLine();
 
-      Console.WriteLine("Ciccio");
+      Random r = new Random();
+      int randomNumber = r.Next(1, 3);
+      if (scelta == randomNumber.ToString())
+        Console.WriteLine("Hai vinto");
+      else
+        Console.WriteLine("Hai perso");
 
       Console.ReadKey();
     }
