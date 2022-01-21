@@ -44,7 +44,7 @@ namespace ConsoleApplicationsTDPC13
       Console.WriteLine(nome[0]);
       Console.WriteLine(nome[nome.Length-1]);
       */
-
+      /*
       string stringa = "ciao sono una stringa molto lunga";
       //replace
       string stringaReplace = stringa.Replace("i", "I");
@@ -72,6 +72,21 @@ namespace ConsoleApplicationsTDPC13
       Console.WriteLine(stringaStartsWith);
       Console.WriteLine(stringaEndsWith);
       Console.WriteLine(stringaContains);
+      */
+      /*
+        - chiedere all'utente una stringa qualsiasi
+        - sostituire nella stringa tutte le occorrenze di "o" con "y"
+        e stampare il risultato
+        - sostituire nella stringa risultato tutte le occorrenze di
+        "la" con "io" e stampare il risultato
+       */
+      /*
+      Console.WriteLine("inserisci una stringa");
+      string input = Console.ReadLine();
+      string replaceOY = input.Replace("o", "y");
+      Console.WriteLine(replaceOY);
+      Console.WriteLine(replaceOY.Replace("la", "io"));
+      */
       Console.ReadKey();
     }
   }
