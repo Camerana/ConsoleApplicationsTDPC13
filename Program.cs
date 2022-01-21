@@ -95,15 +95,20 @@ namespace ConsoleApplicationsTDPC13
       il nome dell'utente con "***"
        - stampare il risultato
        */
+      /*
       Console.WriteLine("inserisci una stringa");
       string stringa = Console.ReadLine();
       Console.WriteLine("inserisci il tuo nome");
       string nome = Console.ReadLine();
       Console.WriteLine(stringa.Replace(nome, "***"));
+      */
+
+
 
       Console.ReadKey();
     }
 
+    //ESERCIZI:
     /*
      scrivere un programma che simuli il gioco del tris:
       - 2 giocatori
