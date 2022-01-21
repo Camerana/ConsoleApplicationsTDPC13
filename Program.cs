@@ -45,6 +45,33 @@ namespace ConsoleApplicationsTDPC13
       Console.WriteLine(nome[nome.Length-1]);
       */
 
+      string stringa = "ciao sono una stringa molto lunga";
+      //replace
+      string stringaReplace = stringa.Replace("i", "I");
+
+      //minuscolo
+      string stringaLowerInvariant = stringa.ToLowerInvariant();
+
+      //maiuscolo
+      string stringaUpperInvariant = stringa.ToUpperInvariant();
+
+      //comincia con questa stringa ?
+      bool stringaStartsWith = stringa.StartsWith("cia");
+
+      //finisce con questa stringa ?
+      bool stringaEndsWith = stringa.EndsWith("nga");
+
+      //contiene questa stringa ?
+      bool stringaContains = stringa.Contains(" una st");
+
+
+      Console.WriteLine(stringa);
+      Console.WriteLine(stringaReplace);
+      Console.WriteLine(stringaLowerInvariant);
+      Console.WriteLine(stringaUpperInvariant);
+      Console.WriteLine(stringaStartsWith);
+      Console.WriteLine(stringaEndsWith);
+      Console.WriteLine(stringaContains);
       Console.ReadKey();
     }
   }
