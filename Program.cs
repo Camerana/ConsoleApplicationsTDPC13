@@ -87,7 +87,40 @@ namespace ConsoleApplicationsTDPC13
       Console.WriteLine(replaceOY);
       Console.WriteLine(replaceOY.Replace("la", "io"));
       */
+
+      /*
+       - chiedere all'utente una stringa
+       - chiedere all'utente il suo nome
+       - sostituire all'interno della prima stringa
+      il nome dell'utente con "***"
+       - stampare il risultato
+       */
+      Console.WriteLine("inserisci una stringa");
+      string stringa = Console.ReadLine();
+      Console.WriteLine("inserisci il tuo nome");
+      string nome = Console.ReadLine();
+      Console.WriteLine(stringa.Replace(nome, "***"));
+
       Console.ReadKey();
     }
+
+    /*
+     scrivere un programma che simuli il gioco del tris:
+      - 2 giocatori
+      - box di 3x3, simboli O, X
+      - vince il giocatore che fa tris
+     */
+    /*
+     - chiedere all'utente 4 numeri interi
+     - stampare sullo schermo somma e differenza dei numeri
+     - stampare sullo schermo il prodotto del primo con l'ultimo
+     */
+    /*
+     - chiedere all'utente 3 stringhe
+     - stampare sullo schermo le seguenti condizioni (true o false):
+      - la prima stringa contiene la seconda
+      - la seconda stringa comincia con la prima
+      - la terza stringa è più lunga della prima
+     */
   }
 }
