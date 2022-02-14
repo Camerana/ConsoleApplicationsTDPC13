@@ -9,16 +9,27 @@ namespace ConsoleApplicationsTDPC13
   class Program
   {
     /*
-     
-     */
+      scrivere e chiamare due funzioni:
+       - la prima stampa "hello"
+       - la seconda chiede un numero all'utente e lo stampa
+      */
     static void Main(string[] args)
     {
-      string nome = "Ciccio";
-      Console.WriteLine(nome);
-
-      Console.WriteLine("Ciccio");
+      StampaHello();
+      StampaNumero();    
 
       Console.ReadKey();
+    }
+    static void StampaHello()
+    {
+      Console.WriteLine("hello");
+    }
+
+    static void StampaNumero()
+    {
+      Console.WriteLine("Inserisci un numero");
+      string numero = Console.ReadLine();
+      Console.WriteLine(numero);
     }
   }
 }
