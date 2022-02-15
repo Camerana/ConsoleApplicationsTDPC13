@@ -46,6 +46,7 @@ namespace ConsoleApplicationsTDPC13
       - ciclare partendo dal numero dell'utente per 20 volte
       - stampare a ogni iterazione l'indice del ciclo
      */
+    /*
     static void Main(string[] args)
     {
       Console.WriteLine("Inserisci un numero");
@@ -56,6 +57,21 @@ namespace ConsoleApplicationsTDPC13
         Console.WriteLine(i - input);
       }
       Console.ReadKey();
+    }
+    */
+    /*
+     * in un solo ciclo di 5 iterazioni:
+        - chiedere all'utente una stringa
+        - stampare sullo schermo la stringa
+     */
+    static void Main(string[] args)
+    {
+      for (int i = 0; i < 5; i++)
+      {
+        Console.WriteLine("Inserisci una stringa");
+        string input = Console.ReadLine();
+        Console.WriteLine(input);
+      }
     }
   }
 }
