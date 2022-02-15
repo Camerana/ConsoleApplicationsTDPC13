@@ -40,9 +40,22 @@ namespace ConsoleApplicationsTDPC13
       Console.ReadKey();
     }
     */
+    /*
+     scrivere un programma:
+      - chiedere all'utente un numero
+      - ciclare partendo dal numero dell'utente per 20 volte
+      - stampare a ogni iterazione l'indice del ciclo
+     */
     static void Main(string[] args)
     {
+      Console.WriteLine("Inserisci un numero");
+      int input = int.Parse(Console.ReadLine());
 
+      for (int i = input; i < (input + 20); i++)
+      {
+        Console.WriteLine(i - input);
+      }
+      Console.ReadKey();
     }
   }
 }
