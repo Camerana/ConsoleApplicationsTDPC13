@@ -9,15 +9,20 @@ namespace ConsoleApplicationsTDPC13
   class Program
   {
     /*
-     
+     scrivere un programma:
+      - chiedere all'utente un numero
+      - ciclare da 0 fino al numero dato dall'utente
+      - per ogni iterazione stampare l'indice dell'iterazione corrente
      */
     static void Main(string[] args)
     {
-      string nome = "Ciccio";
-      Console.WriteLine(nome);
-
-      Console.WriteLine("Ciccio");
-
+      Console.WriteLine("Inserisci un numero");
+      string input = Console.ReadLine();
+      int max = int.Parse(input);
+      for (int i = 0; i < max; i++)
+      {
+        Console.WriteLine(i);
+      }
       Console.ReadKey();
     }
   }
