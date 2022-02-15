@@ -14,6 +14,7 @@ namespace ConsoleApplicationsTDPC13
       - ciclare da 0 fino al numero dato dall'utente
       - per ogni iterazione stampare l'indice dell'iterazione corrente
      */
+    /*
     static void Main(string[] args)
     {
       Console.WriteLine("Inserisci un numero");
@@ -24,6 +25,24 @@ namespace ConsoleApplicationsTDPC13
         Console.WriteLine(i);
       }
       Console.ReadKey();
+    }
+    */
+    /*
+    static void Main(string[] args)
+    {
+      for (int i = 0; i < 10; i++)
+      {
+        for (int j = 0; j < 10; j++)
+        {
+          Console.WriteLine("i: " + i + ", j: " + j);
+        }        
+      }
+      Console.ReadKey();
+    }
+    */
+    static void Main(string[] args)
+    {
+
     }
   }
 }
