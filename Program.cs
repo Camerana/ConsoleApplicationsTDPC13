@@ -8,17 +8,9 @@ namespace ConsoleApplicationsTDPC13
 {
   class Program
   {
-    /*
-     
-     */
     static void Main(string[] args)
     {
-      string nome = "Ciccio";
-      Console.WriteLine(nome);
-
-      Console.WriteLine("Ciccio");
-
-      Console.ReadKey();
+     
     }
   }
 }
