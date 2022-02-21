@@ -8,8 +8,40 @@ namespace ConsoleApplicationsTDPC13
 {
   class Program
   {
+
     static void Main(string[] args)
     {
+      /*
+      scrivere un programma:
+       - creare un array di 5 numeri interi
+       - tramite un ciclo for stampare su schermo i numeri     
+      */
+      /*
+      int[] numeri = new int[5];
+      numeri[0] = 5;
+      numeri[1] = 15;
+      numeri[2] = 56;
+      numeri[3] = 11;
+      numeri[4] = 7;
+      for (int i = 0; i < numeri.Length; i++)
+      {
+        Console.WriteLine(numeri[i]);
+      }
+      Console.ReadKey();
+      */
+      /*
+       dato un array di 5 numeri, copiarli su un array di 10 numeri
+       */
+      int[] numeri = new int[5];
+      numeri[0] = 5;
+      numeri[1] = 15;
+      numeri[2] = 56;
+      numeri[3] = 11;
+      numeri[4] = 7;
+      int[] numeri2 = new int[10];
+      for (int i = 0; i < numeri.Length; i++)
+        numeri2[i] = numeri[i];
+
       /*
        permettere di scegliere tra italiano e inglese
       chiedere una frase
