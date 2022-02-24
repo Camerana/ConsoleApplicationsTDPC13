@@ -87,6 +87,7 @@ namespace ConsoleApplicationsTDPC13
             try
             {
                 int numero3 = numero / numero2;
+                Console.WriteLine("asda");
             }
             catch (Exception ex)
             {
@@ -118,6 +119,13 @@ namespace ConsoleApplicationsTDPC13
 
             for (int i = 0; i < maxDimension; i++)
             {
+                if (i < arrayDimension)
+                    Console.WriteLine("Array: " + numbersArray[i]);
+                if (i < listDimension)
+                    Console.WriteLine("Lista: " + numbersList[i]);
+
+
+
                 //versione pigra, da NON imitare
                 /*
                 try
