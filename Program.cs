@@ -10,10 +10,27 @@ namespace ConsoleApplicationsTDPC13
     {
         /*
          scrivere un programma:
+            - chiedere all'utente due numeri e due stringhe
+            - inserire i numeri dell'utente in un array
+            - inserire le stringhe dell'utente in una lista
+            - creare un nuovo array di stringhe vuoto e una nuova 
+            lista di numeri vuota
+            - copiare il contenuto dell'array di numeri nella lista
+            di numeri
+            - copiare il contenuto della lista di stringhe nell'array
+            di stringhe
+         */
+        static void Main(string[] args)
+        {
+
+        }
+        /*
+         scrivere un programma:
             - chiedere all'utente 3 numeri
             - inserire i 3 numeri in un array
             - tramite un ciclo foreach stampare i 3 numeri
          */
+        /*
         static void Main(string[] args)
         {
             int[] numeri = new int[3];
@@ -30,19 +47,24 @@ namespace ConsoleApplicationsTDPC13
             {
                 Console.WriteLine(numero);
             }
-            /*
-            List<string> stringhe = new List<string>() {
-            "lista 1", "lista 2", "lista 3"
-            };
-            foreach (string stringa in stringhe)
-                Console.WriteLine(stringa);
-
-            int[] numeri = new int[] { 1, 2, 3 };
-
-            foreach (int numero in numeri)
-                Console.WriteLine(numero);
-            */
             Console.ReadKey();
         }
+        */
+        /*
+         static void Main(string[] args)
+        {
+        List<string> stringhe = new List<string>() {
+        "lista 1", "lista 2", "lista 3"
+        };
+        foreach (string stringa in stringhe)
+            Console.WriteLine(stringa);
+
+        int[] numeri = new int[] { 1, 2, 3 };
+
+        foreach (int numero in numeri)
+            Console.WriteLine(numero);
+
+        Console.ReadKey();
+        }  */
     }
 }
