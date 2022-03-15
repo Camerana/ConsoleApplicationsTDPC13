@@ -6,12 +6,46 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplicationsTDPC13
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-     
-    }
+        /*
+         scrivere un programma con:
+          - una classe Persona con:
+                public string Nome;
+                public string Cognome;
+          - una classe Animale
+                public string Nome;
+                public bool Mammifero;
+          - creare un oggetto di tipo Persona e valorizzarne le properties
+          - creare un oggetto di tipo Animale e valorizzarne le properties
+          - stampare le properties dei due oggetti
+         */
+        static void Main(string[] args)
+        {
+
+        }
+        /*
+        - creare una classe Animale con:
+            - public string Nome
+            - public string Razza
+        - chiedere all'utente nome e razza di un animale
+        - creare un oggetto di tipo Animale e valorizzarne
+        le properties secondo quanto scritto dall'utente
+        - stampare su schermo le properties dell'oggetto
+         */
+        /*
+        static void Main(string[] args)
+        {
+            Animale animale = new Animale();
+            Console.WriteLine("Inserisci il nome dell'animale");
+            animale.Nome = Console.ReadLine();
+            Console.WriteLine("Inserisci la razza dell'animale");
+            animale.Razza = Console.ReadLine();
+
+            animale.StampaDati();
+            Console.ReadKey();
+        }
+        */
         /*
     creare una classe Persona con properties:
        - public string Name
