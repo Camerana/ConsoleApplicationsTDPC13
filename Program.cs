@@ -22,7 +22,21 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Persona persona = new Persona();
+            persona.Nome = "Angelo";
+            persona.Cognome = "Rossi";
 
+            Animale animale = new Animale();
+            animale.Nome = "Fuffi";
+            animale.Mammifero = true;
+
+            Console.WriteLine("Dati persona:");
+            Console.WriteLine("Nome: " + persona.Nome);
+            Console.WriteLine("Cognome: " + persona.Cognome);
+
+            Console.WriteLine("Dati animale:");
+            Console.WriteLine("Nome: " + animale.Nome);
+            Console.WriteLine("Mammifero: " + animale.Mammifero);
         }
         /*
         - creare una classe Animale con:

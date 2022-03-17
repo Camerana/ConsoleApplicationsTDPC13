@@ -9,11 +9,6 @@ namespace ConsoleApplicationsTDPC13
     class Animale
     {
         public string Nome;
-        public string Razza;
-
-        public void StampaDati()
-        {
-            Console.WriteLine("Nome: " + this.Nome + ", Razza: " + this.Razza);
-        }
+        public bool Mammifero;
     }
 }

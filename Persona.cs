@@ -8,13 +8,7 @@ namespace ConsoleApplicationsTDPC13
 {
     class Persona
     {
-        public string Name;
-        public int Eta;
-
-        public void StampaDati()
-        {
-            Console.WriteLine(this.Name);
-            Console.WriteLine(this.Eta);
-        }
+        public string Nome;
+        public string Cognome;
     }
 }
