@@ -16,7 +16,7 @@ namespace ConsoleApplicationsTDPC13
          *          - Colore
          *      - metodi:
          *          - StampaCaratteristiche()
-         *  - Scarpa con properties:
+         *  - Scarpa con:
          *      - properties:
          *          - Numero
          *          - Marca
@@ -29,6 +29,16 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Vestito v = new Vestito();
+            v.Taglia = "XXXXL";
+            v.Colore = "Rosso";
+
+            Scarpa s = new Scarpa();
+            s.Numero = "52";
+            s.Marca = "Prada";
+
+            v.StampaCaratteristiche();
+            s.StampaCaratteristiche();
         }
         /*
         static void Main(string[] args)
