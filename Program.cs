@@ -8,14 +8,36 @@ namespace ConsoleApplicationsTDPC13
 {
     class Program
     {
+        /*
+         * - creare 2 classi:
+         *  - Vestito con:
+         *      - properties:
+         *          - Taglia
+         *          - Colore
+         *      - metodi:
+         *          - StampaCaratteristiche()
+         *  - Scarpa con properties:
+         *      - properties:
+         *          - Numero
+         *          - Marca
+         *      - metodi:
+         *          - StampaCaratteristiche()
+         * - creare un oggetto per ciascuna classe
+         * e valorizzarne le properties
+         * - tramite i metodi StampaCaratteristiche
+         * stampare le properties degli oggetti
+         */
+        static void Main(string[] args)
+        {
+        }
+        /*
         static void Main(string[] args)
         {
             Persona persona = new Persona();
             persona.Nome = "Franco";
             Console.WriteLine(persona.Nome);
             Console.ReadKey();
-
-            
         }
+        */
     }
 }
