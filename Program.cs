@@ -66,7 +66,18 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
-
+            List<Automobile> automobili = new List<Automobile>();
+            Automobile[] autoArray = new Automobile[10];
+            for (int i = 0; i < 10; i++)
+            {
+                Automobile auto = new Automobile();
+                auto.Colore = "Rosso_" + i;
+                auto.Targa = "AB22" + i + "SS";
+                auto.Accendi();
+                automobili.Add(auto);
+                autoArray[i] = auto;
+            }
+            Console.ReadKey();
         }
 
 
