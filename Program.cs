@@ -17,7 +17,7 @@ namespace ConsoleApplicationsTDPC13
 
 
             string coloreString = "Blu";
-            Sovrascrivi(coloreString);
+            Sovrascrivi(ref coloreString);
 
             Console.ReadKey();
         }
@@ -26,6 +26,14 @@ namespace ConsoleApplicationsTDPC13
         gli oggetti vengono passati per reference !
          */
         public static void Sovrascrivi(string colore)
+        {
+            colore = "Giallo";
+        }
+        /*
+         scrivendo la parola chiave "ref" si forza il comportamento
+        della variabile, passandola per reference invece che per value
+         */
+        public static void Sovrascrivi(ref string colore)
         {
             colore = "Giallo";
         }
