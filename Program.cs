@@ -66,6 +66,7 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            //posso conservare gli oggetti in collection
             List<Automobile> automobili = new List<Automobile>();
             Automobile[] autoArray = new Automobile[10];
             for (int i = 0; i < 10; i++)
