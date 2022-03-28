@@ -8,6 +8,29 @@ namespace ConsoleApplicationsTDPC13
 {
     class Program
     {
+        /*
+         - creare una classe Veicolo
+            - property Tipo
+            - property Colore
+         - creare 5 oggetti di tipo Veicolo
+        e valorizzarne le property
+        - creare una classe Animale
+            - property Nome
+            - property Razza
+            - metodo Muoviti()
+        - creare 2 oggetti di tipo Animale
+        e valorizzarne le property
+        - fare in modo che gli unici colori possibili per
+        il Veicolo siano "Rosso", "Blu" e "Giallo"
+        e che le uniche razze possibili per Animale siano
+        "Gatto" e "Canarino", ossia bisogna modificare il "set"
+        delle property
+         */
+        static void Main(string[] args)
+        {
+        }
+
+        /*
         static void Main(string[] args)
         {
             Automobile automobile = new Automobile();
@@ -21,6 +44,7 @@ namespace ConsoleApplicationsTDPC13
 
             Console.ReadKey();
         }
+        */
         /*
          i tipi di base vengono passati per value,
         gli oggetti vengono passati per reference !
