@@ -9,6 +9,21 @@ namespace ConsoleApplicationsTDPC13
     class Program
     {
         /*
+         creare una classe Vino con 
+         properties:
+            - Annata
+            - Colore
+            - Nome
+         metodi:
+            - Degusta
+         creare 3 oggetti della classe Vino con due costruttori
+         a piacere, valorizzarne le properties ed eseguire il
+         metodo Degusta
+         */
+        static void Main(string[] args)
+        {
+        }
+        /*
          creare una classe Animale con:
             - properties:
                 - string Nome
@@ -24,6 +39,7 @@ namespace ConsoleApplicationsTDPC13
         i costruttori, valorizzarne le properties e per ciascuno
         eseguire il metodo Muoviti()
          */
+        /*
         static void Main(string[] args)
         {
             Animale a1 = new Animale();
@@ -37,6 +53,7 @@ namespace ConsoleApplicationsTDPC13
             a3.Muoviti();
             Console.ReadKey();
         }
+        */
         /*
         static void Main(string[] args)
         {
