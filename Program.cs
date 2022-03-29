@@ -28,6 +28,27 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            for (int i = 0; i < 5; i++)
+            {
+                Veicolo v = new Veicolo();
+                v.Colore = "verde";
+                v.Tipo = "Auto";
+
+                Console.WriteLine("colore: " + v.Colore);
+                Console.WriteLine("tipo: " + v.Tipo);
+            }
+            Console.WriteLine("++++++++++");
+
+            for (int i = 0; i < 2; i++)
+            {
+                Animale a = new Animale();
+                a.Nome = "Rizzi";
+                a.Razza = "CanARinO";
+
+                Console.WriteLine("nome: " + a.Nome);
+                Console.WriteLine("razza: " + a.Razza);
+            }
+            Console.ReadKey();
         }
 
         /*
