@@ -26,11 +26,24 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Animale a1 = new Animale();
+            a1.Nome = "Lino";
+            a1.Razza = "Canguro";
+            Animale a2 = new Animale("Piccio");
+            a2.Razza = "Criceto";
+            Animale a3 = new Animale("Ciccio", "Gatto");
+            a1.Muoviti();
+            a2.Muoviti();
+            a3.Muoviti();
+            Console.ReadKey();
+        }
+        /*
+        static void Main(string[] args)
+        {
             Persona persona1 = new Persona("Gino", "Paoli", true);
             Persona persona2 = new Persona("Claudio", "Villa", false);
             Persona persona3 = new Persona("Fred", "Bongusto", true);
-
-
         }
+        */
     }
 }
