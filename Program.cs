@@ -21,7 +21,22 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Tavolo t = new Tavolo();
+            t.Altezza = 100;
+            t.Colore = "Rosso";
 
+            Armadio a = new Armadio();
+            a.Altezza = 180;
+            a.Colore = "Bianco";
+
+            StampaMobile(t);
+            StampaMobile(a);
+            Console.ReadKey();
+        }
+        public static void StampaMobile(Mobile m)
+        {
+            Console.WriteLine("Altezza: " + m.Altezza);
+            Console.WriteLine("Colore: " + m.Colore);
         }
         /*
         static void Main(string[] args)
