@@ -8,6 +8,22 @@ namespace ConsoleApplicationsTDPC13
 {
     class Program
     {
+        /*
+        - creare una classe Mobile con properties:
+                - public string Altezza
+                - public string Colore
+        - creare una classe Tavolo che eredita da Mobile
+        - creare una classe Armadio che eredita da Mobile
+        - creare un oggetto di tipo Tavolo e un oggetto di
+        tipo Armadio e valorizzarne le properties
+        - tramite una funzione StampaMobile(...) nella classe
+        Program stampare le properties di tavolo e armadio
+         */
+        static void Main(string[] args)
+        {
+
+        }
+        /*
         static void Main(string[] args)
         {
             Animale animale = new Animale();
@@ -21,6 +37,7 @@ namespace ConsoleApplicationsTDPC13
         {
 
         }
+        */
         /*
         static void Main(string[] args)
         {

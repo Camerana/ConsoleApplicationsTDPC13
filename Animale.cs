@@ -8,7 +8,7 @@ namespace ConsoleApplicationsTDPC13
 {
     public class Animale
     {
-
+        
     }
     public class Cane : Animale
     {
