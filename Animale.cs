@@ -8,6 +8,19 @@ namespace ConsoleApplicationsTDPC13
 {
     public class Animale
     {
+
+    }
+    public class Cane : Animale
+    {
+
+    }
+    public class Bulldog : Cane
+    {
+
+    }
+    /*
+    public class Animale
+    {
         public static int AnimalsNumber = 0;
         public string Nome { get; set; }
         public Animale()
@@ -23,4 +36,5 @@ namespace ConsoleApplicationsTDPC13
             Console.WriteLine(this.Nome + " si sta muovendo");
         }
     }
+    */
 }
