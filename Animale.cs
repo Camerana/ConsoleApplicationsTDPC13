@@ -16,9 +16,9 @@ namespace ConsoleApplicationsTDPC13
     }
     public class Elefante : Animale
     {
+        public int NumeroZanne { get; set; }
         public override void Mangia()
         {
-            base.Mangia();
             Console.WriteLine("L'elefante sta mangiando");
         }
         public void Corri()
@@ -28,6 +28,7 @@ namespace ConsoleApplicationsTDPC13
     }
     public class Pesce : Animale
     {
+        public int NumeroBranchie { get; set; }
         public override void Mangia()
         {
             Console.WriteLine("Il pesce sta mangiando");
