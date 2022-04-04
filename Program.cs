@@ -11,21 +11,21 @@ namespace ConsoleApplicationsTDPC13
         /*
         - creare una classe Veicolo
             - properties:
-                - Targa
-                - Colore
+                - string Targa
+                - string Colore
             - metodi:
                 - public Parti
                 - protected virtual Accendi
         - creare una classe Auto : Veicolo
             - properties:
-                - NumeroPorte
+                - int NumeroPorte
             - metodi:
                 - public MettiLaCintura
                 - protected override Accendi
                 - private CambiaMarcia
         - creare una classe Moto : Veicolo
             - properties:
-                - NumeroRaggi
+                - int NumeroRaggi
             - metodi:
                 - public Impenna
                 - protected override Accendi
