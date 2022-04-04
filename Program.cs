@@ -25,6 +25,26 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Elefante el = new Elefante();
+            el.TipologiaArti = "Zampe";
+            el.Mangia();
+            el.Corri();
+
+            Pesce ps = new Pesce();
+            ps.TipologiaArti = "Pinne";
+            ps.Mangia();
+            ps.Nuota();
+
+            AnimaleSconosciuto animScon = new AnimaleSconosciuto();
+            animScon.TipologiaArti = "Tentacoli";
+            animScon.Mangia();
+
+            Console.ReadKey();
+
+        }
+        /*
+        static void Main(string[] args)
+        {
             Tavolo tavolo = new Tavolo();
             tavolo.Altezza = 100;
             tavolo.Colore = "Rosso";
@@ -38,5 +58,6 @@ namespace ConsoleApplicationsTDPC13
 
             Console.ReadKey();
         }
+        */
     }
 }
