@@ -9,6 +9,37 @@ namespace ConsoleApplicationsTDPC13
     class Program
     {
         /*
+        - creare una classe Veicolo
+            - properties:
+                - Targa
+                - Colore
+            - metodi:
+                - public Parti
+                - protected virtual Accendi
+        - creare una classe Auto : Veicolo
+            - properties:
+                - NumeroPorte
+            - metodi:
+                - public MettiLaCintura
+                - protected override Accendi
+                - private CambiaMarcia
+        - creare una classe Moto : Veicolo
+            - properties:
+                - NumeroRaggi
+            - metodi:
+                - public Impenna
+                - protected override Accendi
+        - creare un oggetto di tipo Auto
+        - creare un oggetto di tipo Moto
+        - popolare le properties degli oggetti
+        - invocare per ciascun oggetto tutti i metodi visibili
+        in Program
+         */
+        static void Main(string[] args)
+        {
+
+        }
+        /*
             - creare una classe Animale
                 - con property string TipologiaArti
                 - con metodo Mangia
@@ -23,6 +54,7 @@ namespace ConsoleApplicationsTDPC13
                 - popolarne le properties
                 - invocare i metodi Mangia e Nuota
          */
+        /*
         static void Main(string[] args)
         {
             Elefante el = new Elefante();
@@ -49,6 +81,7 @@ namespace ConsoleApplicationsTDPC13
         {
             a.Mangia();
         }
+        */
         /*
         static void Main(string[] args)
         {
