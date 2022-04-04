@@ -27,20 +27,27 @@ namespace ConsoleApplicationsTDPC13
         {
             Elefante el = new Elefante();
             el.TipologiaArti = "Zampe";
-            el.Mangia();
-            el.Corri();
+            //el.Mangia();
+            //el.Corri();
 
             Pesce ps = new Pesce();
             ps.TipologiaArti = "Pinne";
-            ps.Mangia();
-            ps.Nuota();
+            //ps.Mangia();
+            //ps.Nuota();
 
             AnimaleSconosciuto animScon = new AnimaleSconosciuto();
             animScon.TipologiaArti = "Tentacoli";
-            animScon.Mangia();
+            //animScon.Mangia();
+
+            OsservaAnimale(el);
+            OsservaAnimale(ps);
+            OsservaAnimale(animScon);
 
             Console.ReadKey();
-
+        }
+        public static void OsservaAnimale(Animale a)
+        {
+            a.Mangia();
         }
         /*
         static void Main(string[] args)
