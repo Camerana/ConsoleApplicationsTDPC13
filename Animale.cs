@@ -8,9 +8,13 @@ namespace ConsoleApplicationsTDPC13
 {
     public class Animale
     {
+        private string SonoPrivato;
+        protected string SonoProtected;
         public string TipologiaArti { get; set; }
         public virtual void Mangia()
         {
+            this.SonoPrivato = "sasfa";
+            this.SonoProtected = "afagas";
             Console.WriteLine("L'animale sta mangiando");
         }
     }
@@ -19,6 +23,8 @@ namespace ConsoleApplicationsTDPC13
         public int NumeroZanne { get; set; }
         public override void Mangia()
         {
+            //this.SonoPrivato = "aagagda";
+            this.SonoProtected = "ggasfg";
             Console.WriteLine("L'elefante sta mangiando");
         }
         public void Corri()
