@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplicationsTDPC13
 {
+    /*
+     public:
+        - sempre visibile
+        - si eredita
+    protected:
+        - visibile:
+            - stessa classe
+            - classi figlie
+        - si eredita
+    private:
+        - visile nella stessa classe
+        - non si eredita
+     */
     public class Animale
     {
         private string SonoPrivato;
