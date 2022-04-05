@@ -30,8 +30,8 @@ namespace ConsoleApplicationsTDPC13
                 - ViviTanto()
         - creare 10 oggetti di tipo Platano
         - creare un oggetto di tipo Ulivo
-        - creare un oggetto di tipo Quercia
-        - popolare le property degli oggetti
+        - creare 15 oggetto di tipo Quercia
+        - popolare e stampare su schermo le property degli oggetti
         - invocare da Program i metodi di tutti gli oggetti creati
          */
         static void Main(string[] args)
