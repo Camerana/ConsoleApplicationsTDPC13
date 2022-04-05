@@ -14,7 +14,7 @@ namespace ConsoleApplicationsTDPC13
             - con property:
                 - Altezza
             - con metodi:
-                - Fiorisci
+                - Fiorisci()
         - creare una classe astratta Albero : Vegetale
             - con property:
                 - TipologiaLegno
