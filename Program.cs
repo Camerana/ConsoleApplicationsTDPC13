@@ -37,7 +37,21 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
+            Auto auto = new Auto();
+            auto.Colore = "Verde";
+            auto.NumeroPorte = 4;
+            auto.Targa = "AB224SS";
 
+            Moto moto = new Moto();
+            moto.Colore = "Blu";
+            moto.NumeroRaggi = 5;
+            moto.Targa = "GG77HH";
+
+            auto.MettiLaCintura();
+            auto.Parti();
+
+            moto.Impenna();
+            moto.Parti();
         }
         /*
             - creare una classe Animale
