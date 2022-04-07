@@ -8,6 +8,7 @@ namespace ConsoleApplicationsTDPC13
 {
     public interface IPersona
     {
+        string Nome { get; set; }
         void Nutriti();
     }
     public interface IUmano : IPersona
@@ -20,6 +21,8 @@ namespace ConsoleApplicationsTDPC13
     }
     public abstract class Umano : IUmano
     {
+        public string Nome { get; set; }
+
         public void Nutriti()
         {
             this.Mangia();
@@ -28,6 +31,8 @@ namespace ConsoleApplicationsTDPC13
     }
     public abstract class Robot : IRobot
     {
+        public string Nome { get; set; }
+
         public virtual void Nutriti()
         {
             this.Ricarica();
@@ -51,11 +56,16 @@ namespace ConsoleApplicationsTDPC13
         static void Main(string[] args)
         {
             Impiegato impiegato = new Impiegato();
-
             Androide androide = new Androide();
 
-            impiegato.Nutriti();
-            androide.Nutriti();
+            IPersona[] persone = new IPersona[2];
+            persone[0] = impiegato;
+            persone[1] = androide;
+
+            persone[0].Nome = "jonny";
+            persone[1].Nome = "joe porchetta";
+            persone[0].Nutriti();
+            persone[1].Nutriti();
         }
     }
 }
