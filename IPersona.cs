@@ -6,24 +6,49 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplicationsTDPC13
 {
-    /*
     public interface IPersona
     {
+        string Nome { get; set; }
+        void Nutriti();
     }
-    public interface IRobot
+    public interface IUmano : IPersona
+    {
+        void Mangia();
+    }
+    public interface IRobot : IPersona
+    {
+        void Ricarica();
+    }
+    public abstract class Umano : IUmano
+    {
+        public string Nome { get; set; }
+
+        public void Nutriti()
+        {
+            this.Mangia();
+        }
+        public void Mangia() { }
+    }
+    public abstract class Robot : IRobot
+    {
+        public string Nome { get; set; }
+
+        public virtual void Nutriti()
+        {
+            this.Ricarica();
+        }
+        public void Ricarica() { }
+    }
+    public class Impiegato : Umano
     {
     }
-    public abstract class Umano
+    public class Androide : Robot, IUmano
     {
+        public override void Nutriti()
+        {
+            base.Nutriti();
+            this.Mangia();
+        }
+        public void Mangia() { }
     }
-    public abstract class Robot
-    {
-    }
-    public class Impiegato : Umano, IPersona
-    {
-    }
-    public class Androide : Robot, IRobot, IPersona
-    {
-    }
-    */
 }
