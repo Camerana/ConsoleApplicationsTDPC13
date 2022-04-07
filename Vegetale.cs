@@ -15,12 +15,24 @@ namespace ConsoleApplicationsTDPC13
     {
         public string TipologiaLegno { get; set; }
         public string TipologiaFrutto { get; set; }
+        public virtual void Descrivi()
+        {
+            Console.WriteLine(this.Altezza);
+            Console.WriteLine(this.TipologiaFrutto);
+            Console.WriteLine(this.TipologiaLegno);
+            this.Fiorisci();
+        }
     }
     public class Platano : Albero
     {
         public void ProduciBanane()
         {
             Console.WriteLine("Il platano sta producendo banane");
+        }
+        public override void Descrivi()
+        {
+            base.Descrivi();
+            this.ProduciBanane();
         }
     }
     public class Ulivo : Albero
@@ -29,12 +41,22 @@ namespace ConsoleApplicationsTDPC13
         {
             Console.WriteLine("L'ulivo sta producendo olive");
         }
+        public override void Descrivi()
+        {
+            base.Descrivi();
+            this.ProduciOlive();
+        }
     }
     public class Quercia : Albero
     {
         public void ViviTanto()
         {
             Console.WriteLine("La quercia vive a lungo");
+        }
+        public override void Descrivi()
+        {
+            base.Descrivi();
+            this.ViviTanto();
         }
     }
 }
