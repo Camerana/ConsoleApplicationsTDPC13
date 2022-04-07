@@ -8,25 +8,42 @@ namespace ConsoleApplicationsTDPC13
 {
     public interface IPersona
     {
+        void Nutriti();
+    }
+    public interface IUmano : IPersona
+    {
         void Mangia();
     }
-    public interface IRobot
+    public interface IRobot : IPersona
     {
         void Ricarica();
     }
-    public abstract class Umano
+    public abstract class Umano : IUmano
     {
+        public void Nutriti()
+        {
+            this.Mangia();
+        }
         public void Mangia() { }
     }
-    public abstract class Robot
+    public abstract class Robot : IRobot
     {
+        public virtual void Nutriti()
+        {
+            this.Ricarica();
+        }
         public void Ricarica() { }
     }
-    public class Impiegato : Umano, IPersona
+    public class Impiegato : Umano
     {
     }
-    public class Androide : Robot, IRobot, IPersona
+    public class Androide : Robot, IUmano
     {
+        public override void Nutriti()
+        {
+            base.Nutriti();
+            this.Mangia();
+        }
         public void Mangia() { }
     }
     class Program
@@ -34,25 +51,11 @@ namespace ConsoleApplicationsTDPC13
         static void Main(string[] args)
         {
             Impiegato impiegato = new Impiegato();
-            impiegato.Mangia();
 
             Androide androide = new Androide();
-            androide.Mangia();
-            androide.Ricarica();
 
-            IPersona[] persone = new IPersona[2];
-            persone[0] = impiegato;
-            persone[1] = androide;
-            persone[0].Mangia();
-
-            IRobot[] robots = new IRobot[1];
-            robots[0] = androide;
-            robots[0].Ricarica();
-
-            Androide[] androidi = new Androide[2];
-            androidi[0] = androide;
-            androidi[0].Mangia();
-            androidi[0].Ricarica();
+            impiegato.Nutriti();
+            androide.Nutriti();
         }
     }
 }
