@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplicationsTDPC13
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-     
+        /*
+         a grande richiesta torna....
+        - il DISTRIBUTORE ! (fatto per bene)
+         */
+        static void Main(string[] args)
+        {
+
+        }
     }
-  }
 }
