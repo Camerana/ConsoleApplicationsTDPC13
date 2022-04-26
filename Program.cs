@@ -16,9 +16,9 @@ namespace ConsoleApplicationsTDPC13
                 per i due giocatori
                 - ogni giocatore deve ad ogni turno tentare di mangiare
                 una salsiccia o bere una birra
-                - mangiare una salsiccia richiede uno "panza" di 3, però
+                - mangiare una salsiccia richiede 3 punti "panza", però
                 sottrae anche 2 punti all'avversario
-                - bere una birra richiede uno "panza" di 2
+                - bere una birra richiede 2 punti "panza"
                 - ogni volta che si sceglie se mangiare o bere, randomizzare
                 un numero che indica se l'azione è andata a buon fine o meno
                     - se non va a buon fine, si subisce una penalità di 2 punti
