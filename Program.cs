@@ -11,7 +11,7 @@ namespace ConsoleApplicationsTDPC13
         /*
          Gara di salsicce e birre:
             - regole:
-                - 2 giocatori simulati
+                - 2 giocatori
                 - randomizzare un punteggio arbitrario di punti "panza"
                 per i due giocatori
                 - ogni giocatore deve ad ogni turno tentare di mangiare
