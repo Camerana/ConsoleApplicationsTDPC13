@@ -14,6 +14,7 @@ namespace ConsoleApplicationsTDPC13
             - consultazione di tutti contatti
             - ricerca contatti
             - opzionale: cancellazione contatti
+            - opzionale per masochisti: modifica contatti
          */
         static void Main(string[] args)
         {
