@@ -30,7 +30,8 @@ namespace ConsoleApplicationsTDPC13
          */
         static void Main(string[] args)
         {
-
+            Partita partita = new Partita();
+            partita.Start();
         }
     }
 }
